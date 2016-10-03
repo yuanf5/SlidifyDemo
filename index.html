@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>An APP to explore Plotly R Package</title>
+  <meta charset="utf-8">
+  <meta name="description" content="An APP to explore Plotly R Package">
+  <meta name="author" content="Fang Yuan">
+  <meta name="generator" content="slidify" />
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="chrome=1">
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/default.css" media="all" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/phone.css" 
+    media="only screen and (max-device-width: 480px)" >
+  <link rel="stylesheet" href="libraries/frameworks/io2012/css/slidify.css" >
+  <link rel="stylesheet" href="libraries/highlighters/highlight.js/css/tomorrow.css" />
+  <base target="_blank"> <!-- This amazingness opens all links in a new tab. -->  <link rel=stylesheet href="./assets/css/ribbons.css"></link>
+
+  
+  <!-- Grab CDN jQuery, fall back to local if offline -->
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.7.min.js"></script>
+  <script>window.jQuery || document.write('<script src="libraries/widgets/quiz/js/jquery.js"><\/script>')</script> 
+  <script data-main="libraries/frameworks/io2012/js/slides" 
+    src="libraries/frameworks/io2012/js/require-1.0.8.min.js">
+  </script>
+  
+  
+
+</head>
+<body style="opacity: 0">
+  <slides class="layout-widescreen">
+    
+    <!-- LOGO SLIDE -->
+        <slide class="title-slide segue nobackground">
+  <hgroup class="auto-fadein">
+    <h1>An APP to explore Plotly R Package</h1>
+    <h2>Coursera Data Product final project</h2>
+    <p>Fang Yuan<br/></p>
+  </hgroup>
+    <a href="https://github.com/yuanf5/CourseraDataProduct/zipball/gh-pages" class="example">
+     Download
+    </a>
+  <article></article>  
+</slide>
+    
+
+    <!-- SLIDES -->
+    <slide class="" id="slide-1" style="background:;">
+  <hgroup>
+    <h2>Introduction</h2>
+  </hgroup>
+  <article data-timings="">
+    <ol>
+<li>Plotly is an online analytics and data visualization tool, that host variaty APIs like R, python, JS etc. R API is entirely open source, free, and self-hosted. </li>
+<li>R user can access plotly with plotly package, which can be installed from CRAN. Function plot_ly can be called directory. Graphs using ggplot can be convert to Plotly graph using Figure converter function plotly::ggplotly to enable dynamic effect.</li>
+<li>The advantage of Plotly is the graph are not static anymore. They are more interactive, and thus can provide more information. D3 graphs can be enabled as well.
+<br>
+This APP is designed to explore the two functions plotly provide for R users: API and graph converter. </li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-2" style="background:;">
+  <hgroup>
+    <h2>2D plot</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><br>
+<br></p>
+
+<ol class = "build incremental">
+<li><p>mtcars dataset is used. User can select which variable/variables they want to plot against, and select which variable to color them. </p></li>
+<li><p>Plots are made with ggplot2 package. And plotly is enabled with plotly figure converter - ggplotly.</p></li>
+<li><p>Plotly R API made it more interactive as can show the coordinates and some statistical details. Put your cursor on the graph to explore.</p></li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-3" style="background:;">
+  <hgroup>
+    <h2>3D plot</h2>
+  </hgroup>
+  <article data-timings="">
+    <p><br>
+<br></p>
+
+<ol class = "build incremental">
+<li><p>3D plot is enabled with plot_ly function. Which made available through plotly R API. </p></li>
+<li><p>User can turn, zoom, and rotate the 3D graph to explore data in different angle. Coordinates can be shown when moving cursor on the graph.</p></li>
+</ol>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+<slide class="" id="slide-4" style="background:;">
+  <hgroup>
+    <h2>3D plot continue...</h2>
+  </hgroup>
+  <article data-timings="">
+    <pre><code>## Warning: package &#39;plotly&#39; was built under R version 3.2.5
+</code></pre>
+
+<pre><code>## Loading required package: ggplot2
+</code></pre>
+
+<pre><code>## 
+## Attaching package: &#39;plotly&#39;
+</code></pre>
+
+<pre><code>## The following object is masked from &#39;package:ggplot2&#39;:
+## 
+##     last_plot
+</code></pre>
+
+<pre><code>## The following object is masked from &#39;package:graphics&#39;:
+## 
+##     layout
+</code></pre>
+
+<p><img src="assets/fig/unnamed-chunk-1-1.png" alt="plot of chunk unnamed-chunk-1"></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
+    <slide class="backdrop"></slide>
+  </slides>
+  <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
+    <ul>
+      <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=1 title='Introduction'>
+         1
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=2 title='2D plot'>
+         2
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=3 title='3D plot'>
+         3
+      </a>
+    </li>
+    <li>
+      <a href="#" target="_self" rel='tooltip' 
+        data-slide=4 title='3D plot continue...'>
+         4
+      </a>
+    </li>
+  </ul>
+  </div>  <!--[if IE]>
+    <script 
+      src="http://ajax.googleapis.com/ajax/libs/chrome-frame/1/CFInstall.min.js">  
+    </script>
+    <script>CFInstall.check({mode: 'overlay'});</script>
+  <![endif]-->
+</body>
+  <!-- Load Javascripts for Widgets -->
+  
+  <!-- LOAD HIGHLIGHTER JS FILES -->
+  <script src="libraries/highlighters/highlight.js/highlight.pack.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <!-- DONE LOADING HIGHLIGHTER JS FILES -->
+   
+  </html>
