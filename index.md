@@ -44,33 +44,7 @@ This APP is designed to explore the two functions plotly provide for R users: AP
 ---
     
 ## 3D plot continue...
-
-```
-## Warning: package 'plotly' was built under R version 3.2.5
-```
-
-```
-## Loading required package: ggplot2
-```
-
-```
-## 
-## Attaching package: 'plotly'
-```
-
-```
-## The following object is masked from 'package:ggplot2':
-## 
-##     last_plot
-```
-
-```
-## The following object is masked from 'package:graphics':
-## 
-##     layout
-```
-
-![plot of chunk unnamed-chunk-1](assets/fig/unnamed-chunk-1-1.png)
+![plot of chunk message==FALSE](assets/fig/message==FALSE-1.png)
 
 
 

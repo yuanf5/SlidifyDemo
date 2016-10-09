@@ -44,7 +44,7 @@ This APP is designed to explore the two functions plotly provide for R users: AP
 ---
     
 ## 3D plot continue...
-```{r, echo=FALSE, echo=FALSE}
+```{r, echo=FALSE, message==FALSE}
 library(plotly)
 plotly::plot_ly(
     mtcars,
