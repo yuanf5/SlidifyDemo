@@ -11,7 +11,7 @@ mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
 github:
     user: yuanf5
-    repo: CourseraDataProduct
+    repo: SlidifyDemo
 ---
     
 ## Introduction
